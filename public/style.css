@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  min-width: 320px;
+}
+.container {
+  max-width: 524px;
+  margin: auto;
+  padding: 0 10px;
+}
+
+/* main title */
+.main-title {
+	margin-bottom: 5px;
+	margin-top: 25px;
+	font-size: 1.8rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.main-title img {
+  width: 50px;
+}
+
+/* button */
+.button {
+  text-align: center;
+}
+.button button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+}
+
+/* add task form */
+.add-task-form {
+  text-align: left;
+  margin-bottom: 15px;
+}
+.add-task-form input {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.add-task-form label {
+  background-color: gray;
+  color: white;
+  padding: 3px 8px;
+  border-radius: 5px;
+  font-size: .9rem;
+}
+.add-task-form input[type="checkbox"] {
+  width: 30px;
+  display: inline-block;
+}
+.add-task-form input[type="submit"] {
+  background-color: #4f4fff;
+  border: none;
+  margin-top: 5px;
+  color: white;
+  cursor: pointer;
+  padding: 7px;
+}
+
+/* task list */
+.task-list-btns {
+  display: flex;
+  justify-content: space-between;
+}
+.task-list {
+  display: flex;
+  flex-flow: column;
+  gap: 5px;
+}
+
+/* task item */
+.task-item {
+  background-color: #f2f2f2;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
+.task-item a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+}
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+.buttons button {
+  height: 30px;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+}
+.btn-update {
+  background-color: orange;
+}
+.btn-delete {
+  background-color: red;
+}
+.completed {
+  border-left: 8px solid green;
+}
+.completed-btn {
+  background-color: green;
+  color: white;
+}
+
+/* about */
+.about {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+/* error */
+.error {
+  color: red;
+  margin: 10px 0;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
